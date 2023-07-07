@@ -1,0 +1,36 @@
+2023/07/07 09:52:25 [notice] 30480#30972: signal process started
+2023/07/07 09:52:28 [error] 7444#12504: *1 "D:/usr/share/nginx/html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 09:52:28 [error] 7444#12504: *1 CreateFile() "D:/usr/share/nginx/html/favicon.ico" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2023/07/07 09:52:54 [notice] 26580#9804: signal process started
+2023/07/07 09:52:59 [error] 7444#12504: *2 "D:/usr/share/nginx/html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 09:53:00 [error] 7444#12504: *3 "D:/usr/share/nginx/html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 09:53:22 [notice] 6904#28880: signal process started
+2023/07/07 09:53:24 [error] 11148#21428: *4 "D:\Project\behappy-project\behappy-gulimall-nginx/../html/index.html" is not found (3: The system cannot find the path specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 10:00:16 [notice] 29760#8916: signal process started
+2023/07/07 10:00:23 [error] 13504#16504: *7 "D:\Project\behappy-project\behappy-gulimall-nginx/../htmlindex.html" is not found (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 10:00:25 [error] 13504#16504: *7 "D:\Project\behappy-project\behappy-gulimall-nginx/../htmlindex.html" is not found (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 10:00:26 [error] 13504#16504: *7 "D:\Project\behappy-project\behappy-gulimall-nginx/../htmlindex.html" is not found (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 10:00:27 [error] 13504#16504: *7 "D:\Project\behappy-project\behappy-gulimall-nginx/../htmlindex.html" is not found (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 11:52:51 [emerg] 19936#1728: "env" directive is not allowed here in D:\Project\behappy-project\behappy-gulimall-nginx/conf/nginx.conf:22
+2023/07/07 11:53:43 [emerg] 28368#15832: invalid number of arguments in "env" directive in D:\Project\behappy-project\behappy-gulimall-nginx/conf/nginx.conf:17
+2023/07/07 11:54:44 [emerg] 1136#10640: "set" directive is not allowed here in D:\Project\behappy-project\behappy-gulimall-nginx/conf/nginx.conf:22
+2023/07/07 11:55:10 [emerg] 18020#8104: "set" directive is not allowed here in D:\Project\behappy-project\behappy-gulimall-nginx/conf/nginx.conf:17
+2023/07/07 11:55:25 [emerg] 22540#7864: "set" directive is not allowed here in D:\Project\behappy-project\behappy-gulimall-nginx/conf/nginx.conf:36
+2023/07/07 11:57:05 [emerg] 18480#13332: unknown log format "main" in D:\Project\behappy-project\behappy-gulimall-nginx/conf/../conf.d/default.conf:9
+2023/07/07 11:58:27 [emerg] 9068#26184: CreateFile() "D:\Project\behappy-project\behappy-gulimall-nginx/../logs/access.log" failed (3: The system cannot find the path specified)
+2023/07/07 12:00:26 [emerg] 29856#26848: invalid log level "main" in D:\Project\behappy-project\behappy-gulimall-nginx/conf/nginx.conf:26
+2023/07/07 12:00:51 [emerg] 7976#13148: CreateFile() "D:\Project\behappy-project\behappy-gulimall-nginx/../logs/access.log" failed (3: The system cannot find the path specified)
+2023/07/07 12:02:11 [notice] 25120#20788: signal process started
+2023/07/07 12:02:39 [notice] 5288#26236: signal process started
+2023/07/07 12:02:58 [crit] 31008#17004: *13 CreateFile() "D:\Project\behappy-project\behappy-gulimall-nginx/D:/Project/behappy-project/behappy-gulimall-nginx/logs/access.log" failed (123: The filename, directory name, or volume label syntax is incorrect) while logging request, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 12:02:59 [crit] 31008#17004: *13 CreateFile() "D:\Project\behappy-project\behappy-gulimall-nginx/D:/Project/behappy-project/behappy-gulimall-nginx/logs/access.log" failed (123: The filename, directory name, or volume label syntax is incorrect) while logging request, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 12:03:23 [crit] 31008#17004: *13 CreateFile() "D:\Project\behappy-project\behappy-gulimall-nginx/D:/Project/behappy-project/behappy-gulimall-nginx/logs/access.log" failed (123: The filename, directory name, or volume label syntax is incorrect) while logging request, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 12:04:02 [notice] 13524#21588: signal process started
+2023/07/07 12:04:04 [crit] 12972#29780: *15 CreateFile() "D:\Project\behappy-project\behappy-gulimall-nginx/D:/Project/behappy-project/behappy-gulimall-nginx/logs/default_access.log" failed (123: The filename, directory name, or volume label syntax is incorrect) while logging request, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 12:04:50 [notice] 28464#25584: signal process started
+2023/07/07 12:04:53 [crit] 12972#29780: *16 CreateFile() "D:\Project\behappy-project\behappy-gulimall-nginx/D:/Project/behappy-project/behappy-gulimall-nginx/logs/default_access.log" failed (123: The filename, directory name, or volume label syntax is incorrect) while logging request, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 12:04:54 [crit] 12972#29780: *17 CreateFile() "D:\Project\behappy-project\behappy-gulimall-nginx/D:/Project/behappy-project/behappy-gulimall-nginx/logs/default_access.log" failed (123: The filename, directory name, or volume label syntax is incorrect) while logging request, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2023/07/07 14:14:50 [notice] 21568#30052: signal process started
+2023/07/07 14:17:23 [emerg] 1728#6868: "set" directive is not allowed here in D:\Project\behappy-project\behappy-gulimall-nginx/conf/nginx.conf:20
+2023/07/07 14:17:25 [emerg] 29560#26288: "set" directive is not allowed here in D:\Project\behappy-project\behappy-gulimall-nginx/conf/nginx.conf:20
+2023/07/07 14:27:19 [notice] 19972#25908: signal process started
