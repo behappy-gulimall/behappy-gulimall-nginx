@@ -7,8 +7,6 @@ services:
     privileged: true
     environment:
       TZ: Asia/Shanghai
-      # 本机/宿主机host
-      LC: 192.168.3.153
     ports: # 端口号绑定（宿主机:容器内）
       - '80:80'
       - '443:443'
