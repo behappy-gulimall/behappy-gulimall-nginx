@@ -3,6 +3,7 @@ Nginx（静态资源代理以及后端反代）- docker版本
 
 ## 配置
 
+- 修改gulimall.conf下的server_name，这里需要你的支付回调所用到的地址
 - 修改conf.d/upstream.conf，将地址改为宿主机/本机的地址
 - 修改host，host指向你的宿主机/虚拟机地址
 ```agsl
